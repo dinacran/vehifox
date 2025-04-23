@@ -1,0 +1,9 @@
+com/boot/SpringBoot/Application.class
+com/boot/SpringBoot/model/ClassObj.class
+com/boot/SpringBoot/controller/ControllerClass.class
+com/boot/SpringBoot/repository/ClassObjRepo.class
+com/boot/SpringBoot/controller/VehicleController.class
+com/boot/SpringBoot/service/ObjService.class
+com/boot/SpringBoot/service/VehicleService.class
+com/boot/SpringBoot/repository/VehicleRepo.class
+com/boot/SpringBoot/model/Vehicle.class
