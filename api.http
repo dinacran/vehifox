@@ -1,0 +1,234 @@
+GET http://localhost:8080/vehicles
+# GET http://localhost:8080/findObjBy/val2/String1
+
+# POST http://localhost:8080/addObjects
+# Content-Type: application/json
+
+# [
+# {
+#     "id": 1,
+#     "val2": "String1",
+#     "val3": false
+# },
+# {
+#     "id": 2,
+#     "val2": "String2",
+#     "val3": true
+# },
+# {
+#     "id": 3,
+#     "val2": "String3",
+#     "val3": false
+# }
+# ]
+
+# POST http://localhost:8080/add
+# Content-Type: application/json
+# Authorization: Basic dXNlcjpwYXNz
+
+# [
+# {
+#     "name": "Vitpilen 250",
+#     "model": "Vitpilen 250",
+#     "brand": "Husqvarna",
+#     "displacement": "248.8 cc",
+#     "power": "30 PS @ 9000 rpm",
+#     "bore": "72 mm",
+#     "stroke": "61.1 mm",
+#     "compressionRatio": "12.5:1",
+#     "price": "₹2,24,768 (ex-showroom)"
+# },
+# {    
+#     "name": "Gixxer SF 250",
+#     "model": "SF 250",
+#     "brand": "Suzuki",
+#     "displacement": "249 cc",
+#     "power": "26.5 PS @ 9300 rpm",
+#     "bore": "76 mm",
+#     "stroke": "54.9 mm",
+#     "compressionRatio": "10.7:1",
+#     "price": "₹1,93,100 (ex-showroom)"
+
+# },
+# {
+    
+#     "name": "SRC 250",
+#     "model": "SRC 250",
+#     "brand": "QJ Motors",
+#     "displacement": "249 cc",
+#     "power": "17.4 HP @ 8000 RPM",
+#     "bore": "Not Specified",
+#     "stroke": "Not Specified",
+#     "compressionRatio": "Not Specified",
+#     "price": "₹2,11,000 (on-road Delhi)"
+
+# },
+# {
+#     "name": "Royal Enfield Classic 350",
+#     "model": "2023",
+#     "brand": "Royal Enfield",
+#     "displacement": "349 cc",
+#     "power": "20.2 bhp @ 6100 rpm",
+#     "bore": "72 mm",
+#     "stroke": "85.8 mm",
+#     "compressionRatio": "9.5:1",
+#     "price": "₹1,90,000 - ₹2,21,000"
+#   },
+#   {
+#     "name": "Honda CB350RS",
+#     "model": "2023",
+#     "brand": "Honda",
+#     "displacement": "348.36 cc",
+#     "power": "21.07 PS @ 5500 rpm",
+#     "bore": "70 mm",
+#     "stroke": "90.5 mm",
+#     "compressionRatio": "9.5:1",
+#     "price": "₹2,09,000 - ₹2,15,000"
+#   },
+#     {
+#     "name": "Honda H'ness CB350",
+#     "model": "2023",
+#     "brand": "Honda",
+#     "displacement": "348.36 cc",
+#     "power": "21.07 PS @ 5500 rpm",
+#     "bore": "70 mm",
+#     "stroke": "90.5 mm",
+#     "compressionRatio": "9.5:1",
+#     "price": "₹2,00,000 - ₹2,06,000"
+#   },
+#   {
+#     "name": "KTM Duke 200",
+#     "model": "2023",
+#     "brand": "KTM",
+#     "displacement": "199.5 cc",
+#     "power": "25 PS @ 10,000 rpm",
+#     "bore": "72 mm",
+#     "stroke": "49 mm",
+#     "compressionRatio": "12.7:1",
+#     "price": "₹1,96,000"
+#   },
+#   {
+#     "name": "Bajaj Pulsar NS200",
+#     "model": "2023",
+#     "brand": "Bajaj",
+#     "displacement": "199.5 cc",
+#     "power": "24.5 PS @ 9750 rpm",
+#     "bore": "72 mm",
+#     "stroke": "49 mm",
+#     "compressionRatio": "9.5:1",
+#     "price": "₹1,47,000"
+#   },
+#     {
+#     "name": "Bajaj Pulsar RS200",
+#     "model": "2023",
+#     "brand": "Bajaj",
+#     "displacement": "199.5 cc",
+#     "power": "24.5 PS @ 9750 rpm",
+#     "bore": "72 mm",
+#     "stroke": "49 mm",
+#     "compressionRatio": "9.7:1",
+#     "price": "₹1,72,000"
+#   },
+#     {
+#     "name": "Yamaha R15 V4",
+#     "model": "2023",
+#     "brand": "Yamaha",
+#     "displacement": "155 cc",
+#     "power": "18.4 PS @ 10,000 rpm",
+#     "bore": "58 mm",
+#     "stroke": "58.7 mm",
+#     "compressionRatio": "11.6:1",
+#     "price": "₹1,81,000 - ₹1,94,000"
+#   },
+#     {
+#     "name": "TVS Apache RTR 160 4V",
+#     "model": "2023",
+#     "brand": "TVS",
+#     "displacement": "159.7 cc",
+#     "power": "17.55 PS @ 9250 rpm",
+#     "bore": "62 mm",
+#     "stroke": "52.9 mm",
+#     "compressionRatio": "10.15:1",
+#     "price": "₹1,24,000 - ₹1,32,000"
+#   },
+#     {
+#     "name": "Hero Splendor Plus",
+#     "model": "2023",
+#     "brand": "Hero",
+#     "displacement": "97.2 cc",
+#     "power": "8.02 PS @ 8000 rpm",
+#     "bore": "50 mm",
+#     "stroke": "49.5 mm",
+#     "compressionRatio": "9.9:1",
+#     "price": "₹72,000 - ₹75,000"
+#   },
+#     {
+#     "name": "Hero HF Deluxe",
+#     "model": "2023",
+#     "brand": "Hero",
+#     "displacement": "97.2 cc",
+#     "power": "8.02 PS @ 8000 rpm",
+#     "bore": "50 mm",
+#     "stroke": "49.5 mm",
+#     "compressionRatio": "9.9:1",
+#     "price": "₹60,000 - ₹66,000"
+#   },
+#     {
+#         "name": "Suzuki Gixxer SF",
+#         "model": "2023",
+#         "brand": "Suzuki",
+#         "displacement": "155 cc",
+#         "power": "13.6 PS @ 8000 rpm",
+#         "bore": "56 mm",
+#         "stroke": "62.9 mm",
+#         "compressionRatio": "10.0:1",
+#         "price": "₹1,37,000 - ₹1,45,000"
+#     },
+#     {
+#         "name": "Royal Enfield Interceptor 650",
+#         "model": "2023",
+#         "brand": "Royal Enfield",
+#         "displacement": "648 cc",
+#         "power": "47 bhp @ 7150 rpm",
+#         "bore": "78 mm",
+#         "stroke": "67.8 mm",
+#         "compressionRatio": "9.5:1",
+#         "price": "₹3,03,000 - ₹3,31,000"
+#     },
+#         {
+#         "name": "Jawa Forty Two",
+#         "model": "2023",
+#         "brand": "Jawa",
+#         "displacement": "293 cc",
+#         "power": "27 bhp",
+#         "bore": "76 mm",
+#         "stroke": "65 mm",
+#         "compressionRatio": "11:1",
+#         "price": "₹1,93,000 - ₹2,00,000"
+#     },
+#     {
+#         "name": "Benelli Imperiale 400",
+#         "model": "2023",
+#         "brand": "Benelli",
+#         "displacement": "374 cc",
+#         "power": "21 PS @ 5500 rpm",
+#         "bore": "72.7 mm",
+#         "stroke": "90 mm",
+#         "compressionRatio": "8.5:1",
+#         "price": "₹1,99,000"
+#     },
+#     {
+#         "name": "TVS Raider",
+#         "model": "2023",
+#         "brand": "TVS",
+#         "displacement": "124.8 cc",
+#         "power": "11.38 PS @ 7500 rpm",
+#         "bore": "53.5 mm",
+#         "stroke": "55.5 mm",
+#         "compressionRatio": "10.0:1",
+#         "price": "₹86,000 - ₹94,000"
+#     }
+# ]
+
+# # OPTIONS http://localhost:8080/add
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch JSON Example</title>
+</head>
+<body>
+    <h1>Data from Endpoint</h1>
+    <div id="output">
+        <p>ID: <span id="name"></span></p>
+        <p>Name: <span id="power"></span></p>
+        <p>Description: <span id="price"></span></p>
+    </div>
+
+    <script>
+        // Function to fetch data from the endpoint
+        async function fetchData() {
+            try {
+                const response = await fetch('http://localhost:8080/vehicle');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+
+                // Populate the fields in the UI
+                document.getElementById('name').textContent = data.name;
+                document.getElementById('power').textContent = data.power;
+                document.getElementById('price').textContent = data.price;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        // Call fetchData on page load
+        fetchData();
+    </script>
+</body>
+</html>
